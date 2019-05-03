@@ -1,5 +1,5 @@
 {
-    "name": "addcomm/yii2-saml",
+    "name": "addcomm/yii-saml",
     "description": "Simplesaml php wrapper",
     "keywords": ["yii", "saml"],
     "type": "yii2-extension",

@@ -1,0 +1,30 @@
+{
+    "name": "addcomm/yii2-saml",
+    "description": "Simplesaml php wrapper",
+    "keywords": ["yii", "saml"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/addcomm/yii2-saml/issues",
+        "source": "https://github.com/addcomm/yii2-saml"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.7"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleSAML\\": "simplesamlphp/lib/SimpleSAML"
+        },
+        "files": ["simplesamlphp/lib/_autoload_modules.php"]
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
